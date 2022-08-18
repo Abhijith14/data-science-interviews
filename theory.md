@@ -44,7 +44,8 @@
 
 **What is supervised machine learning? 👶**
 
-A case when we have both features (the matrix X) and the labels (the vector y)
+Supervised learning is a type of machine learning in which our algorithms are trained using well-labeled training data, and machines predict the output based on that data. Labeled data indicates that the input data has already been tagged with the appropriate output. Basically, it is the task of learning a function that maps the input set and returns an output. Some of its examples are: Linear Regression, Logistic Regression, KNN, etc.
+
 
 <br/>
 
@@ -515,7 +516,7 @@ Feature Selection is a method used to select the relevant features for the model
 
 **Is feature selection important for linear models? ‍⭐️**
 
-Answer here
+Yes, It is. It can make model performance better through selecting the most importance features and remove irrelanvant features in order to make a prediction and it can also avoid overfitting, underfitting and bias-variance tradeoff. 
 
 <br/>
 
@@ -536,7 +537,7 @@ Yes, because the nature of L1 regularization will lead to sparse coefficients of
 
 **Can we use L2 regularization for feature selection? ‍⭐️**
 
-Answer here
+No, Because L2 regularization doesnot make the weights zero but only makes them very very small. L2 regularization can be used to solve multicollinearity since it stablizes the model.
 
 <br/>
 
@@ -1003,13 +1004,17 @@ In the context of CNNs, we can use networks that were pre-trained on popular dat
 
 **What is object detection? Do you know any architectures for that? 🚀**
 
-Answer here
+Object detection is finding Bounding Boxes around objects in an image. 
+Architectures :
+YOLO, Faster RCNN, Center Net
 
 <br/>
 
 **What is object segmentation? Do you know any architectures for that? 🚀**
 
-Answer here
+Object Segmentation is predicting masks. It does not differentiate objects. 
+Architectures :
+Mask RCNN, UNet
 
 <br/>
 
@@ -1018,7 +1023,7 @@ Answer here
 
 **How can we use machine learning for text classification? ‍⭐️**
 
-Answer here
+Machine learning classification algorithms predict a class based on a numerical feature representation. This means that in order to use machine learning for text classification, we need to extract numerical features from our text data first before we can apply machine learning algorithms. Common approaches to extract numerical features from text data are bag of words, N-grams or word embeddings.
 
 <br/>
 
